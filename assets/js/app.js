@@ -923,7 +923,7 @@ function isMobileDevice() {
 }
 
 /**
- * 处理微信公众号操作（移动端复制，PC端显示二维码）
+ * 处理企鹅操作（移动端复制，PC端显示二维码）
  */
 function handleWeChatAction() {
   hideFeedbackModal();
@@ -936,7 +936,7 @@ function handleWeChatAction() {
 }
 
 /**
- * 复制微信公众号名称
+ * 复制企鹅名称
  */
 function copyWeChatName() {
   const wechatName = i18n.t('messages.wechatName');
@@ -975,7 +975,7 @@ function copyWeChatName() {
 }
 
 /**
- * 显示微信二维码弹窗
+ * 显示企鹅二维码弹窗
  */
 function showWeChatQRModal() {
   const modal = document.getElementById("wechat-qr-modal");
@@ -989,7 +989,7 @@ function showWeChatQRModal() {
 }
 
 /**
- * 隐藏微信二维码弹窗
+ * 隐藏企鹅二维码弹窗
  */
 function hideWeChatQRModal() {
   const modal = document.getElementById("wechat-qr-modal");
@@ -1003,7 +1003,7 @@ function hideWeChatQRModal() {
 }
 
 /**
- * 初始化微信二维码弹窗
+ * 初始化企鹅二维码弹窗
  */
 function initWeChatQRModal() {
   const backdrop = document.getElementById("wechat-qr-backdrop");
@@ -3064,7 +3064,7 @@ const MUSIC_PLAYLIST = [
     duration: "04:55",
     urls: [
       // 第二个是维基百科的公共版权音乐
-      "https://fastly.jsdelivr.net/gh/iTCoffe/mao-map@master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
+      "https://mmap.ifanr.pp.ua/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
       "https://upload.wikimedia.org/wikipedia/commons/5/5b/Internationale-cmn_(英特纳雄耐尔).ogg",
     ],
   },
@@ -3074,7 +3074,7 @@ const MUSIC_PLAYLIST = [
     artist: "经典红色歌曲",
     duration: "02:25",
     urls: [
-      "https://fastly.jsdelivr.net/gh/iTCoffe/mao-map@master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
+      "https://mmap.ifanr.pp.ua/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
       "https://upload.wikimedia.org/wikipedia/commons/d/d8/东方红_-_The_East_Is_Red_(1950).ogg",
     ],
   },
