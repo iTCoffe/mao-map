@@ -3064,7 +3064,8 @@ const MUSIC_PLAYLIST = [
     duration: "04:55",
     urls: [
       // 第二个是维基百科的公共版权音乐
-      //"https://wget.la/raw.githubusercontent.com/iTCoffe/mao-map/master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
+      //"https://raw.githubusercontent.com/iTCoffe/mao-map/master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
+      "https://raw.gh.registry.cyou/iTCoffe/mao-map/master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
       "https://mmap.shrimp.hidns.co/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
       //"https://upload.wikimedia.org/wikipedia/commons/5/5b/Internationale-cmn_(英特纳雄耐尔).ogg",
     ],
@@ -3075,7 +3076,8 @@ const MUSIC_PLAYLIST = [
     artist: "经典红色歌曲",
     duration: "02:25",
     urls: [
-      //"https://wget.la/raw.githubusercontent.com/iTCoffe/mao-map/master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
+      //"https://raw.githubusercontent.com/iTCoffe/mao-map/master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
+      "https://raw.gh.registry.cyou/iTCoffe/mao-map/master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
       "https://mmap.shrimp.hidns.co/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
       //"https://upload.wikimedia.org/wikipedia/commons/d/d8/东方红_-_The_East_Is_Red_(1950).ogg",
     ],
