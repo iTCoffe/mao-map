@@ -909,23 +909,6 @@ function hideFeedbackModal() {
     document.body.style.overflow = "";
   }
 }
-
-/**
- * 打开GitHub Issues页面
- */
-function openGitHubIssues() {
-  const issuesUrl = "https://github.com/sansan0/mao-map/issues";
-  window.open(issuesUrl, "_blank", "noopener,noreferrer");
-}
-
-/**
- * 打开GitHub项目主页
- */
-function openGitHubProject() {
-  const projectUrl = "https://github.com/sansan0/mao-map";
-  window.open(projectUrl, "_blank", "noopener,noreferrer");
-}
-
 /**
  * 检测是否为移动设备
  */
