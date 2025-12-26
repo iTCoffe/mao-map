@@ -65,14 +65,6 @@
     },
     "feedback": {
       "title": "Feedback",
-      "issues": {
-        "title": "Report Issue",
-        "desc": "Found a bug or suggestion"
-      },
-      "project": {
-        "title": "Project Homepage",
-        "desc": "View source code and documentation"
-      },
       "wechat": {
         "title": "企鵝·羣組討論",
         "desc": "© 2022-2026 蜂巢•錦承"
