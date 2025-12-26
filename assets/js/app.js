@@ -914,7 +914,7 @@ function hideFeedbackModal() {
  * 打开GitHub Issues页面
  */
 function openGitHubIssues() {
-  const issuesUrl = "https://github.com/sansan0/mao-map/issues";
+  const issuesUrl = "https://github.com/iTCoffe/mao-map/issues";
   window.open(issuesUrl, "_blank", "noopener,noreferrer");
 }
 
@@ -922,7 +922,7 @@ function openGitHubIssues() {
  * 打开GitHub项目主页
  */
 function openGitHubProject() {
-  const projectUrl = "https://github.com/sansan0/mao-map";
+  const projectUrl = "https://github.com/iTCoffe/mao-map";
   window.open(projectUrl, "_blank", "noopener,noreferrer");
 }
 
@@ -936,58 +936,6 @@ function isMobileDevice() {
   const isSmallScreen = window.innerWidth <= 768;
 
   return mobileRegex.test(userAgent) || (hasTouchScreen && isSmallScreen);
-}
-
-/**
- * 处理微信公众号操作（移动端复制，PC端显示二维码）
- */
-function handleWeChatAction() {
-  hideFeedbackModal();
-
-  if (isMobileDevice()) {
-    copyWeChatName();
-  } else {
-    showWeChatQRModal();
-  }
-}
-
-/**
- * 复制微信公众号名称
- */
-function copyWeChatName() {
-  const wechatName = i18n.t('messages.wechatName');
-
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard
-      .writeText(wechatName)
-      .then(() => {
-        showTemporaryMessage(
-          i18n.t('messages.wechatCopied', { name: wechatName }),
-          "success"
-        );
-      })
-      .catch(() => {
-        showTemporaryMessage(i18n.t('messages.wechatSearch', { name: wechatName }), "info");
-      });
-  } else {
-    try {
-      const textArea = document.createElement("textarea");
-      textArea.value = wechatName;
-      textArea.style.position = "fixed";
-      textArea.style.left = "-9999px";
-      document.body.appendChild(textArea);
-      textArea.select();
-      textArea.setSelectionRange(0, 99999);
-      document.execCommand("copy");
-      document.body.removeChild(textArea);
-      showTemporaryMessage(
-        i18n.t('messages.wechatCopied', { name: wechatName }),
-        "success"
-      );
-    } catch (err) {
-      showTemporaryMessage(i18n.t('messages.wechatSearch', { name: wechatName }), "info");
-    }
-  }
 }
 
 /**
@@ -3080,8 +3028,8 @@ const MUSIC_PLAYLIST = [
     duration: "04:55",
     urls: [
       // 第二个是维基百科的公共版权音乐
-      "https://raw.githubusercontent.com/sansan0/mao-map/refs/heads/master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
-      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Internationale-cmn_%28%E8%8B%B1%E7%89%B9%E7%BA%B3%E9%9B%84%E8%80%90%E5%B0%94%29.ogg",
+      "https://fastly.jsdelivr.net/gh/iTCoffe/mao-map@master/data/music/Internationale-cmn_(英特纳雄耐尔).ogg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/Internationale-cmn_(英特纳雄耐尔).ogg",
     ],
   },
   {
@@ -3090,8 +3038,8 @@ const MUSIC_PLAYLIST = [
     artist: "经典红色歌曲",
     duration: "02:25",
     urls: [
-      "https://raw.githubusercontent.com/sansan0/mao-map/refs/heads/master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
-      "https://upload.wikimedia.org/wikipedia/commons/d/d8/%E4%B8%9C%E6%96%B9%E7%BA%A2_-_The_East_Is_Red_%281950%29.ogg",
+      "https://fastly.jsdelivr.net/gh/iTCoffe/mao-map@master/data/music/东方红_-_The_East_Is_Red_(1950).ogg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/东方红_-_The_East_Is_Red_(1950).ogg",
     ],
   },
 ];
