@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "📍 跟着教员走遍中国 - 毛主席足迹地图",
+    "title": "📍 Follow the Teacher's Footsteps Across China - Map of Chairman Mao's Journey",
     "description": "Interactive map showing Chairman Mao's life trajectory"
   },
   "ui": {
@@ -31,9 +31,9 @@
       "speedVerySlow": "Very Slow",
       "speedOptions": {
         "veryFast": "Very Fast",
-        "fast": "Normal",
-        "normal": "Slower",
-        "slow": "Very Slow"
+        "fast": "Fast",
+        "normal": "Normal",
+        "slow": "Slow"
       }
     },
     "animation": {
@@ -44,12 +44,33 @@
       "cameraControl": "Camera Control",
       "cameraOn": "On",
       "cameraOff": "Off",
+      "followMode": "Follow Mode",
+      "followModes": {
+        "smart": "Smart",
+        "path": "Path",
+        "off": "Off"
+      },
+      "followZoom": "Follow Zoom",
+      "pathSpeed": "Animation Duration",
       "speedLevels": {
         "fastest": "Fastest",
         "fast": "Normal",
         "slow": "Slow",
         "slowest": "Slowest"
       }
+    },
+    "settings": {
+      "title": "Settings",
+      "desktopTitle": "Desktop Settings",
+      "alwaysOnTop": "Always on Top",
+      "launchAtStartup": "Launch at Startup"
+    },
+    "update": {
+      "checkUpdate": "Check for Updates",
+      "updateAvailable": "New version v{version} available",
+      "download": "Download",
+      "alreadyLatest": "Already up to date",
+      "networkError": "Network unavailable, try again later"
     },
     "music": {
       "title": "Background Music",
@@ -64,7 +85,15 @@
       "volume": "Volume"
     },
     "feedback": {
-      "title": "關於我們",
+      "title": "Feedback",
+      "issues": {
+        "title": "Report Issue",
+        "desc": "Found a bug or suggestion"
+      },
+      "project": {
+        "title": "Project Homepage",
+        "desc": "View source code and documentation"
+      },
       "wechat": {
         "title": "蜂巢·潤之",
         "desc": "© 2022-2026 蜂巢·隱曜"
@@ -102,9 +131,9 @@
     "loading": "Loading trajectory data...",
     "loadSuccess": "Data loaded successfully",
     "loadError": "Loading failed",
-    "wechatName": "菜鳥驛站·羣組討論【群号:854472073】",
-    "wechatCopied": "{name}",
-    "wechatSearch": "{name}",
+    "wechatName": "蜂巢·潤之",
+    "wechatCopied": " {name}",
+    "wechatSearch": " {name}",
     "musicUploadSuccess": "Local music file added successfully",
     "musicUploadError": "Please select a valid audio file",
     "musicLoadError": "Unable to load audio file, please try uploading a local file",
