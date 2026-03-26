@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "毛泽东生平地理轨迹",
+    "title": "📍 跟着教员走遍中国 - 毛主席足迹地图",
     "description": "通过交互式地图展示毛泽东主席的人生轨迹"
   },
   "ui": {
@@ -30,10 +30,10 @@
       "speedVeryFast": "很快",
       "speedVerySlow": "很慢",
       "speedOptions": {
-        "veryFast": "极快",
-        "fast": "快速",
-        "normal": "正常",
-        "slow": "慢速"
+        "veryFast": "很快",
+        "fast": "正常",
+        "normal": "较慢",
+        "slow": "很慢"
       }
     },
     "animation": {
@@ -44,33 +44,12 @@
       "cameraControl": "镜头控制",
       "cameraOn": "开启",
       "cameraOff": "关闭",
-      "followMode": "跟随模式",
-      "followModes": {
-        "smart": "智能",
-        "path": "沿路",
-        "off": "关闭"
-      },
-      "followZoom": "跟随缩放",
-      "pathSpeed": "动画时长",
       "speedLevels": {
         "fastest": "极快",
         "fast": "正常",
         "slow": "慢速",
         "slowest": "极慢"
       }
-    },
-    "settings": {
-      "title": "设置",
-      "desktopTitle": "桌面设置",
-      "alwaysOnTop": "置顶显示",
-      "launchAtStartup": "开机启动"
-    },
-    "update": {
-      "checkUpdate": "检查更新",
-      "updateAvailable": "发现新版本 v{version}",
-      "download": "前往下载",
-      "alreadyLatest": "已是最新版本",
-      "networkError": "网络不可用，请稍后再试"
     },
     "music": {
       "title": "背景音乐",
@@ -85,18 +64,10 @@
       "volume": "音量"
     },
     "feedback": {
-      "title": "意见反馈",
-      "issues": {
-        "title": "问题反馈",
-        "desc": "发现bug或建议改进"
-      },
-      "project": {
-        "title": "项目主页",
-        "desc": "查看源码和文档"
-      },
+      "title": "關於我們",
       "wechat": {
-        "title": "关注公众号",
-        "desc": "硅基茶水间 - 交流讨论"
+        "title": "蜂巢·潤之",
+        "desc": "© 2022-2026 蜂巢·隱曜"
       }
     },
     "panel": {
@@ -131,9 +102,9 @@
     "loading": "正在加载轨迹数据...",
     "loadSuccess": "数据加载完成",
     "loadError": "加载失败",
-    "wechatName": "硅基茶水间",
-    "wechatCopied": "公众号名称已复制到剪贴板：{name}",
-    "wechatSearch": "请搜索微信公众号：{name}",
+    "wechatName": "菜鳥驛站·羣組討論【群号:854472073】",
+    "wechatCopied": "{name}",
+    "wechatSearch": "{name}",
     "musicUploadSuccess": "本地音乐文件添加成功",
     "musicUploadError": "请选择有效的音频文件",
     "musicLoadError": "无法加载音频文件，请尝试上传本地文件",
